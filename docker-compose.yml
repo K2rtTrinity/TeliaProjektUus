@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  backend:
+    build: ./person_manager
+    ports:
+      - "8080:8080"
+
+  frontend:
+    build: ./person_manager_frontend
+    ports:
+      - "8081:8081"

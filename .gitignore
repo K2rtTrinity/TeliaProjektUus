@@ -1,0 +1,11 @@
+/build/
+/out/
+.gradle/
+
+node_modules/
+dist/
+
+.idea/
+.vscode/
+
+.DS_Store
