@@ -13,7 +13,7 @@ Käivitamine:
 # Projekti salvestamine
 1. Navigeri terminalis kausta, kuhu projekti salvestada soovid
 2. Pane terminali `git clone [https://github.com/K2rtTrinity/TeliaProjekt](https://github.com/K2rtTrinity/TeliaProjektUus.git)`
-# Kontrolli, et sul ei jookse midagi portidel 8080 ja 8081
+# Kontrolli, et midagi ei jookseks portidel 8080 ja 8081
 1. Kõiki kasutusel olevaid porte näed käsuga `docker ps`
 2. Eraldi porte 8080 ja 8081 näed käskudega `lsof -i :8080` ja `lsof -i :8081`
 # Ehitame backend-i 
